@@ -1,0 +1,2 @@
+# UICollectionView-XYTemplateLayoutCell
+A custom templateLayoutCell for UICollectionView
