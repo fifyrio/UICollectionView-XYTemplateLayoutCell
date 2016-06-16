@@ -2,7 +2,7 @@
 A custom templateLayoutCell for UICollectionView
 ## Overview
 Template auto layout cell for **automatically** UICollectionViewCell height calculating.
-![Demo Overview](https://github.com/fifyrio/UICollectionView-XYTemplateLayoutCell/blob/master/Sceenshots/screenshots.gif)
+![Demo Overview](https://github.com/fifyrio/UICollectionView-XYTemplateLayoutCell/blob/master/Screenshots/screenshots.gif)
 ## Basic usage
 
 If you have a **self-satisfied** cell, then all you have to do is: 
