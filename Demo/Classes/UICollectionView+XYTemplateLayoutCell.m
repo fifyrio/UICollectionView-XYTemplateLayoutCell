@@ -28,12 +28,12 @@
 }
 #pragma mark - Public
 - (CGSize)xy_getCellSizeForIdentifier:(NSString *)identifier width:(CGFloat)width config:(void (^)(id cell))config{
+    NSAssert(identifier.length > 0, @"identifier can't be nil - %@",identifier);
     if (!identifier.length) {
         return CGSizeZero;
     }
     //获取cell
     UICollectionViewCell *cell = [self getTempCellForIndentifier:identifier];
-    
     [cell prepareForReuse];
     if (config) {
         config(cell);

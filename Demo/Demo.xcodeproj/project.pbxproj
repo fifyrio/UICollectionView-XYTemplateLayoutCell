@@ -19,6 +19,7 @@
 		CC11674A1D11415900F81E14 /* XYFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167491D11415900F81E14 /* XYFeedModel.m */; };
 		CC11674C1D1148E700F81E14 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CC11674B1D1148E700F81E14 /* data.json */; };
 		CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC11674D1D114DF300F81E14 /* LaunchScreen.xib */; };
+		CCFF90AC1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFF90AB1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		CC1167491D11415900F81E14 /* XYFeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFeedModel.m; sourceTree = "<group>"; };
 		CC11674B1D1148E700F81E14 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		CC11674D1D114DF300F81E14 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		CCFF90AA1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		CCFF90AB1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				CC1167391D113AB100F81E14 /* UICollectionView+XYIndexPathHeightCache.m */,
 				CC11673A1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.h */,
 				CC11673B1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.m */,
+				CCFF90AA1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.h */,
+				CCFF90AB1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1167461D113B2700F81E14 /* XYFeedCell.m in Sources */,
+				CCFF90AC1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */,
 				CC1167351D11361300F81E14 /* ViewController.m in Sources */,
 				CC11673D1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.m in Sources */,
 				CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */,
