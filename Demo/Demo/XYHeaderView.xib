@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="XYHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMk-ZF-ul7">
+                    <rect key="frame" x="20" y="8" width="280" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.96818462171052633" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FMk-ZF-ul7" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="20" id="8Vm-rk-ubY"/>
+                <constraint firstAttribute="bottom" secondItem="FMk-ZF-ul7" secondAttribute="bottom" constant="8" id="V1j-fi-cHQ"/>
+                <constraint firstItem="FMk-ZF-ul7" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="8" id="ZV1-7J-1U8"/>
+                <constraint firstAttribute="trailing" secondItem="FMk-ZF-ul7" secondAttribute="trailing" constant="20" id="met-1g-q9q"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="FMk-ZF-ul7" id="wkV-p1-w19"/>
+            </connections>
+            <point key="canvasLocation" x="239" y="340"/>
+        </collectionReusableView>
+    </objects>
+</document>

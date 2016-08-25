@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -23,7 +23,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zz-wv-RVA">
-                        <rect key="frame" x="87" y="56" width="138" height="103"/>
+                        <rect key="frame" x="87" y="52" width="138" height="111"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -72,8 +72,8 @@
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="2Zz-wv-RVA" secondAttribute="trailing" constant="24" id="Axd-X8-amz"/>
                 <constraint firstItem="u6Z-Gm-r8B" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="B5V-Q0-3It"/>
-                <constraint firstAttribute="bottom" secondItem="2Zz-wv-RVA" secondAttribute="bottom" constant="24" id="BWJ-Ym-9lj"/>
-                <constraint firstItem="2Zz-wv-RVA" firstAttribute="top" secondItem="CFG-6K-3sh" secondAttribute="bottom" constant="24" id="DrL-cH-Ta2"/>
+                <constraint firstAttribute="bottom" secondItem="2Zz-wv-RVA" secondAttribute="bottom" constant="20" id="BWJ-Ym-9lj"/>
+                <constraint firstItem="2Zz-wv-RVA" firstAttribute="top" secondItem="CFG-6K-3sh" secondAttribute="bottom" constant="20" id="DrL-cH-Ta2"/>
                 <constraint firstItem="u6Z-Gm-r8B" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="HZS-xp-2Fd"/>
                 <constraint firstItem="CFG-6K-3sh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="RIO-sj-pV2"/>
                 <constraint firstItem="ZFj-6j-yq0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="W3V-mW-Fgl"/>

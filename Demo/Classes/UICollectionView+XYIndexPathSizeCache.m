@@ -1,19 +1,19 @@
 //
-//  UICollectionView+XYIndexPathHeightCache.m
+//  UICollectionView+XYIndexPathSizeCache.m
 //  tableView
 //
-//  Created by wuw on 16/6/12.
-//  Copyright © 2016年 fifyrio. All rights reserved.
+//  Created by wuw on 16/8/25.
+//  Copyright © 2016年 Kingnet. All rights reserved.
 //
 
-#import "UICollectionView+XYIndexPathHeightCache.h"
+#import "UICollectionView+XYIndexPathSizeCache.h"
 #import <objc/runtime.h>
 
-@interface XYIndexPathHeightCache()
+@interface XYIndexPathSizeCache()
 @property (nonatomic, retain) NSMutableArray *sizesBySections;
 @end
 
-@implementation XYIndexPathHeightCache
+@implementation XYIndexPathSizeCache
 #pragma mark - Initialize
 - (instancetype)init
 {
@@ -80,14 +80,24 @@
 }
 @end
 
-@implementation UICollectionView (XYIndexPathHeightCache)
-- (XYIndexPathHeightCache *)xy_indexPathHeightCache{
-    XYIndexPathHeightCache *cache = objc_getAssociatedObject(self, _cmd);
+@implementation UICollectionView (XYIndexPathSizeCache)
+#pragma mark - Private
+- (XYIndexPathSizeCache *)xy_indexPathSizeCache{
+    XYIndexPathSizeCache *cache = objc_getAssociatedObject(self, _cmd);
     if (!cache) {
-        cache = [XYIndexPathHeightCache new];
+        cache = [XYIndexPathSizeCache new];
         objc_setAssociatedObject(self, _cmd, cache, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
     return cache;
 }
-
+#pragma mark - Public
+- (CGSize)xy_getSizeCacheByIndexPath:(NSIndexPath *)indexPath{
+    return [self.xy_indexPathSizeCache getSizeCacheByIndexPath:indexPath];
+}
+- (BOOL)xy_exsistIndexPathSizeCache:(NSIndexPath *)indexPath{
+    return [self.xy_indexPathSizeCache exsistIndexPathSizeCache:indexPath];
+}
+- (void)xy_cacheSizeByIndexPath:(NSIndexPath *)indexPath size:(CGSize)size{
+    [self.xy_indexPathSizeCache cacheSizeByIndexPath:indexPath size:size];
+}
 @end

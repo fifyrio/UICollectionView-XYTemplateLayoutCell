@@ -12,14 +12,18 @@
 		CC03DF581D11323F00E3660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC03DF571D11323F00E3660A /* Assets.xcassets */; };
 		CC1167351D11361300F81E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167331D11361300F81E14 /* ViewController.m */; };
 		CC1167361D11361300F81E14 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1167341D11361300F81E14 /* ViewController.xib */; };
-		CC11673C1D113AB100F81E14 /* UICollectionView+XYIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167391D113AB100F81E14 /* UICollectionView+XYIndexPathHeightCache.m */; };
-		CC11673D1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC11673B1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.m */; };
 		CC1167461D113B2700F81E14 /* XYFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167441D113B2700F81E14 /* XYFeedCell.m */; };
 		CC1167471D113B2700F81E14 /* XYFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1167451D113B2700F81E14 /* XYFeedCell.xib */; };
 		CC11674A1D11415900F81E14 /* XYFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167491D11415900F81E14 /* XYFeedModel.m */; };
 		CC11674C1D1148E700F81E14 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CC11674B1D1148E700F81E14 /* data.json */; };
 		CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC11674D1D114DF300F81E14 /* LaunchScreen.xib */; };
-		CCFF90AC1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFF90AB1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m */; };
+		CCDBFF4A1D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF431D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m */; };
+		CCDBFF4B1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF451D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m */; };
+		CCDBFF4C1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF471D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m */; };
+		CCDBFF4D1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF491D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m */; };
+		CCDBFF5D1D6ED56000B12DE8 /* XYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */; };
+		CCDBFF5E1D6ED56000B12DE8 /* XYHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */; };
+		CCDBFF611D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF601D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +36,6 @@
 		CC1167321D11361300F81E14 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CC1167331D11361300F81E14 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC1167341D11361300F81E14 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		CC1167381D113AB100F81E14 /* UICollectionView+XYIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYIndexPathHeightCache.h"; sourceTree = "<group>"; };
-		CC1167391D113AB100F81E14 /* UICollectionView+XYIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYIndexPathHeightCache.m"; sourceTree = "<group>"; };
-		CC11673A1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCell.h"; sourceTree = "<group>"; };
-		CC11673B1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		CC1167431D113B2700F81E14 /* XYFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYFeedCell.h; sourceTree = "<group>"; };
 		CC1167441D113B2700F81E14 /* XYFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFeedCell.m; sourceTree = "<group>"; };
 		CC1167451D113B2700F81E14 /* XYFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYFeedCell.xib; sourceTree = "<group>"; };
@@ -43,8 +43,19 @@
 		CC1167491D11415900F81E14 /* XYFeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFeedModel.m; sourceTree = "<group>"; };
 		CC11674B1D1148E700F81E14 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		CC11674D1D114DF300F81E14 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		CCFF90AA1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
-		CCFF90AB1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		CCDBFF421D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYIndexPathSizeCache.h"; sourceTree = "<group>"; };
+		CCDBFF431D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYIndexPathSizeCache.m"; sourceTree = "<group>"; };
+		CCDBFF441D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		CCDBFF451D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		CCDBFF461D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		CCDBFF471D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		CCDBFF481D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateReusableView.h"; sourceTree = "<group>"; };
+		CCDBFF491D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateReusableView.m"; sourceTree = "<group>"; };
+		CCDBFF5A1D6ED56000B12DE8 /* XYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHeaderView.h; sourceTree = "<group>"; };
+		CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHeaderView.m; sourceTree = "<group>"; };
+		CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYHeaderView.xib; sourceTree = "<group>"; };
+		CCDBFF5F1D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYSectionSizeCache.h"; sourceTree = "<group>"; };
+		CCDBFF601D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYSectionSizeCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +72,7 @@
 		CC03DF3F1D11323F00E3660A = {
 			isa = PBXGroup;
 			children = (
-				CC1167371D113AB100F81E14 /* Classes */,
+				CCDBFF411D6ED3CD00B12DE8 /* Classes */,
 				CC03DF4A1D11323F00E3660A /* Demo */,
 				CC03DF491D11323F00E3660A /* Products */,
 			);
@@ -100,19 +111,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CC1167371D113AB100F81E14 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CC1167381D113AB100F81E14 /* UICollectionView+XYIndexPathHeightCache.h */,
-				CC1167391D113AB100F81E14 /* UICollectionView+XYIndexPathHeightCache.m */,
-				CC11673A1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.h */,
-				CC11673B1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.m */,
-				CCFF90AA1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.h */,
-				CCFF90AB1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		CC1167401D113AE000F81E14 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +127,9 @@
 				CC1167431D113B2700F81E14 /* XYFeedCell.h */,
 				CC1167441D113B2700F81E14 /* XYFeedCell.m */,
 				CC1167451D113B2700F81E14 /* XYFeedCell.xib */,
+				CCDBFF5A1D6ED56000B12DE8 /* XYHeaderView.h */,
+				CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */,
+				CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -140,6 +141,23 @@
 				CC1167491D11415900F81E14 /* XYFeedModel.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		CCDBFF411D6ED3CD00B12DE8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCDBFF421D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.h */,
+				CCDBFF431D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m */,
+				CCDBFF441D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.h */,
+				CCDBFF451D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m */,
+				CCDBFF461D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.h */,
+				CCDBFF471D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m */,
+				CCDBFF5F1D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.h */,
+				CCDBFF601D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m */,
+				CCDBFF481D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.h */,
+				CCDBFF491D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCDBFF5E1D6ED56000B12DE8 /* XYHeaderView.xib in Resources */,
 				CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */,
 				CC1167471D113B2700F81E14 /* XYFeedCell.xib in Resources */,
 				CC1167361D11361300F81E14 /* ViewController.xib in Resources */,
@@ -215,12 +234,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1167461D113B2700F81E14 /* XYFeedCell.m in Sources */,
-				CCFF90AC1D1BE8E500E23A02 /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */,
+				CCDBFF4C1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */,
+				CCDBFF4B1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m in Sources */,
+				CCDBFF4A1D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m in Sources */,
+				CCDBFF5D1D6ED56000B12DE8 /* XYHeaderView.m in Sources */,
+				CCDBFF611D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m in Sources */,
 				CC1167351D11361300F81E14 /* ViewController.m in Sources */,
-				CC11673D1D113AB100F81E14 /* UICollectionView+XYTemplateLayoutCell.m in Sources */,
 				CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */,
+				CCDBFF4D1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m in Sources */,
 				CC03DF4D1D11323F00E3660A /* main.m in Sources */,
-				CC11673C1D113AB100F81E14 /* UICollectionView+XYIndexPathHeightCache.m in Sources */,
 				CC11674A1D11415900F81E14 /* XYFeedModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
