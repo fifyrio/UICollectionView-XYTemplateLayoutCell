@@ -7,7 +7,7 @@ Template auto layout cell for **automatically** UICollectionViewCell height calc
 ![Demo Overview](https://github.com/fifyrio/UICollectionView-XYTemplateLayoutCell/blob/master/Screenshots/screenshots.gif)
 ## 如何使用
 
-1. 如果你的CollectionViewCell需要自适应高度,在宽度已经确定的情况下: 
+####如果你的CollectionViewCell需要自适应高度,在宽度已经确定的情况下: 
 
 ``` objc
 #import "UICollectionView+XYTemplateLayoutCell.h"
@@ -18,11 +18,13 @@ Template auto layout cell for **automatically** UICollectionViewCell height calc
     }];
 }
 ```
+
 注：如果是高度确定需要自适应宽度，则用
 ``` objc
 - (CGSize)xy_getCellSizeForIdentifier:(NSString *)identifier height:(CGFloat)height config:(void (^)(id cell))config;
 ```
-2. 如果你的CollectionView的Header需要自适应高度，在宽度已经确定的情况下:3. 
+
+#### 如果你的CollectionView的Header需要自适应高度，在宽度已经确定的情况下: 
 ``` objc
 #import "UICollectionView+XYTemplateReusableView.h"
 //这里以Header为例
