@@ -59,7 +59,7 @@ static NSString * const kXYHeaderView = @"XYHeaderView";
 }
 #pragma mark - UICollectionViewDelegateFlowLayout
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
-    return [collectionView xy_getCellSizeForIdentifier:kXYFeedCell width:ScreenW cacheByIndexPath:indexPath config:^(XYFeedCell * cell) {
+    return [collectionView xy_getCellSizeForIdentifier:kXYFeedCell width:ScreenW config:^(XYFeedCell * cell) {
         cell.model = self.data[indexPath.item];
     }];
 }

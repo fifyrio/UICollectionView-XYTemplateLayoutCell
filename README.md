@@ -7,7 +7,8 @@ Template auto layout cell for **automatically** UICollectionViewCell height calc
 ![Demo Overview](https://github.com/fifyrio/UICollectionView-XYTemplateLayoutCell/blob/master/Screenshots/screenshots.gif)
 ## 如何使用
 
-####如果你的CollectionViewCell需要自适应高度,在宽度已经确定的情况下: 
+####Use in UICollectionViewCell: 
+* fixed width
 
 ``` objc
 #import "UICollectionView+XYTemplateLayoutCell.h"
@@ -19,12 +20,28 @@ Template auto layout cell for **automatically** UICollectionViewCell height calc
 }
 ```
 
-注：如果是高度确定需要自适应宽度，则用
+* fixed height
 ``` objc
-- (CGSize)xy_getCellSizeForIdentifier:(NSString *)identifier height:(CGFloat)height config:(void (^)(id cell))config;
+#import "UICollectionView+XYTemplateLayoutCell.h"
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return [collectionView xy_getCellSizeForIdentifier:@"your identifier" height:height config:^(id cell) {
+        /*设置cell的数据*/
+    }];
+}
+```
+* dynamic size
+``` objc
+#import "UICollectionView+XYTemplateLayoutCell.h"
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return [collectionView xy_getCellSizeForIdentifier:@"your identifier" config:^(id cell) {
+        /*设置cell的数据*/
+    }];
+}
 ```
 
-#### 如果你的CollectionView的Header需要自适应高度，在宽度已经确定的情况下: 
+#### Use in UICollectionReusableView: 
+* fixed width
+
 ``` objc
 #import "UICollectionView+XYTemplateReusableView.h"
 //这里以Header为例
@@ -34,8 +51,29 @@ Template auto layout cell for **automatically** UICollectionViewCell height calc
     }];
 }
 ```
+* fixed height
 
-## 缓存cell的size的API
+``` objc
+#import "UICollectionView+XYTemplateReusableView.h"
+//这里以Header为例
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
+    return [collectionView xy_getReusableViewSizeForIdentifier:@"your identifier" height:height config:^(id reusableView) {
+        /*设置header的数据*/
+    }];
+}
+```
+* dynamic size
+
+``` objc
+#import "UICollectionView+XYTemplateReusableView.h"
+//这里以Header为例
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
+    return [collectionView xy_getReusableViewSizeForIdentifier:@"your identifier" config:^(id reusableView) {
+        /*设置header的数据*/
+    }];
+}
+```
+#### 缓存cell的size的API
 
 
 ``` objc
@@ -45,7 +83,7 @@ Template auto layout cell for **automatically** UICollectionViewCell height calc
     }];
 }
 ```
-## 缓存Header/Footer的size的API
+#### 缓存Header/Footer的size的API
 ``` objc
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
     return [collectionView xy_getReusableViewSizeForIdentifier:@"your identifier" width:width cacheBySection:section config:^(id reusableView) {
