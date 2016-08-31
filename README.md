@@ -91,3 +91,9 @@ Template auto layout cell for **automatically** UICollectionViewCell height calc
     }];
 }
 ```
+## Release Versions
+* v1.1
+add dynamic size
+
+* v1.0
+support to caculate size for UICollectionView Cell
