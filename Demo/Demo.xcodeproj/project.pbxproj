@@ -33,7 +33,6 @@
 		CC9335FC203130D7003BB19D /* weibo_5.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F4203130D7003BB19D /* weibo_5.json */; };
 		CC9335FD203130D7003BB19D /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F5203130D7003BB19D /* weibo_6.json */; };
 		CC9335FE203130D7003BB19D /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F6203130D7003BB19D /* weibo_7.json */; };
-		CC9336022031642C003BB19D /* WMText.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9336012031642C003BB19D /* WMText.m */; };
 		CCDBFF5D1D6ED56000B12DE8 /* XYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */; };
 		CCDBFF5E1D6ED56000B12DE8 /* XYHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */; };
 /* End PBXBuildFile section */
@@ -79,8 +78,6 @@
 		CC9335F4203130D7003BB19D /* weibo_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_5.json; sourceTree = "<group>"; };
 		CC9335F5203130D7003BB19D /* weibo_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_6.json; sourceTree = "<group>"; };
 		CC9335F6203130D7003BB19D /* weibo_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_7.json; sourceTree = "<group>"; };
-		CC9336002031642C003BB19D /* WMText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMText.h; sourceTree = "<group>"; };
-		CC9336012031642C003BB19D /* WMText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMText.m; sourceTree = "<group>"; };
 		CCDBFF5A1D6ED56000B12DE8 /* XYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHeaderView.h; sourceTree = "<group>"; };
 		CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHeaderView.m; sourceTree = "<group>"; };
 		CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYHeaderView.xib; sourceTree = "<group>"; };
@@ -100,7 +97,6 @@
 		CC03DF3F1D11323F00E3660A = {
 			isa = PBXGroup;
 			children = (
-				CC9335FF2031641E003BB19D /* WMText */,
 				CC9335EA20312E77003BB19D /* XYTestTool */,
 				CC9335E320312E44003BB19D /* YYFPSLabel */,
 				CC9335D320312D5B003BB19D /* Classes */,
@@ -230,16 +226,6 @@
 			path = Json;
 			sourceTree = "<group>";
 		};
-		CC9335FF2031641E003BB19D /* WMText */ = {
-			isa = PBXGroup;
-			children = (
-				CC9336002031642C003BB19D /* WMText.h */,
-				CC9336012031642C003BB19D /* WMText.m */,
-			);
-			name = WMText;
-			path = Demo/WMText;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -330,7 +316,6 @@
 				CC9335E120312D5B003BB19D /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */,
 				CC9335E820312E44003BB19D /* YYFPSLabel.m in Sources */,
 				CC9335E920312E44003BB19D /* YYWeakProxy.m in Sources */,
-				CC9336022031642C003BB19D /* WMText.m in Sources */,
 				CC9335DF20312D5B003BB19D /* UICollectionView+XYSectionSizeCache.m in Sources */,
 				CC9335E020312D5B003BB19D /* UICollectionView+XYTemplateLayoutCell.m in Sources */,
 				CC9335E220312D5B003BB19D /* UICollectionView+XYTemplateReusableView.m in Sources */,
