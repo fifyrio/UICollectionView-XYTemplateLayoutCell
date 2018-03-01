@@ -17,13 +17,24 @@
 		CC11674A1D11415900F81E14 /* XYFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167491D11415900F81E14 /* XYFeedModel.m */; };
 		CC11674C1D1148E700F81E14 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CC11674B1D1148E700F81E14 /* data.json */; };
 		CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC11674D1D114DF300F81E14 /* LaunchScreen.xib */; };
-		CCDBFF4A1D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF431D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m */; };
-		CCDBFF4B1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF451D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m */; };
-		CCDBFF4C1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF471D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m */; };
-		CCDBFF4D1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF491D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m */; };
+		CC9335DE20312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335D520312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.m */; };
+		CC9335DF20312D5B003BB19D /* UICollectionView+XYSectionSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335D720312D5B003BB19D /* UICollectionView+XYSectionSizeCache.m */; };
+		CC9335E020312D5B003BB19D /* UICollectionView+XYTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335D920312D5B003BB19D /* UICollectionView+XYTemplateLayoutCell.m */; };
+		CC9335E120312D5B003BB19D /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335DB20312D5B003BB19D /* UICollectionView+XYTemplateLayoutCellDebug.m */; };
+		CC9335E220312D5B003BB19D /* UICollectionView+XYTemplateReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335DD20312D5B003BB19D /* UICollectionView+XYTemplateReusableView.m */; };
+		CC9335E820312E44003BB19D /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335E520312E44003BB19D /* YYFPSLabel.m */; };
+		CC9335E920312E44003BB19D /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335E720312E44003BB19D /* YYWeakProxy.m */; };
+		CC9335ED20312E78003BB19D /* XYSelfTestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335EC20312E77003BB19D /* XYSelfTestTool.m */; };
+		CC9335F7203130D7003BB19D /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335EF203130D7003BB19D /* weibo_0.json */; };
+		CC9335F8203130D7003BB19D /* weibo_1.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F0203130D7003BB19D /* weibo_1.json */; };
+		CC9335F9203130D7003BB19D /* weibo_2.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F1203130D7003BB19D /* weibo_2.json */; };
+		CC9335FA203130D7003BB19D /* weibo_3.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F2203130D7003BB19D /* weibo_3.json */; };
+		CC9335FB203130D7003BB19D /* weibo_4.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F3203130D7003BB19D /* weibo_4.json */; };
+		CC9335FC203130D7003BB19D /* weibo_5.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F4203130D7003BB19D /* weibo_5.json */; };
+		CC9335FD203130D7003BB19D /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F5203130D7003BB19D /* weibo_6.json */; };
+		CC9335FE203130D7003BB19D /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F6203130D7003BB19D /* weibo_7.json */; };
 		CCDBFF5D1D6ED56000B12DE8 /* XYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */; };
 		CCDBFF5E1D6ED56000B12DE8 /* XYHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */; };
-		CCDBFF611D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF601D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,19 +54,33 @@
 		CC1167491D11415900F81E14 /* XYFeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFeedModel.m; sourceTree = "<group>"; };
 		CC11674B1D1148E700F81E14 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		CC11674D1D114DF300F81E14 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		CCDBFF421D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYIndexPathSizeCache.h"; sourceTree = "<group>"; };
-		CCDBFF431D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYIndexPathSizeCache.m"; sourceTree = "<group>"; };
-		CCDBFF441D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCell.h"; sourceTree = "<group>"; };
-		CCDBFF451D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCell.m"; sourceTree = "<group>"; };
-		CCDBFF461D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
-		CCDBFF471D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
-		CCDBFF481D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateReusableView.h"; sourceTree = "<group>"; };
-		CCDBFF491D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateReusableView.m"; sourceTree = "<group>"; };
+		CC9335D420312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYIndexPathSizeCache.h"; sourceTree = "<group>"; };
+		CC9335D520312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYIndexPathSizeCache.m"; sourceTree = "<group>"; };
+		CC9335D620312D5B003BB19D /* UICollectionView+XYSectionSizeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYSectionSizeCache.h"; sourceTree = "<group>"; };
+		CC9335D720312D5B003BB19D /* UICollectionView+XYSectionSizeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYSectionSizeCache.m"; sourceTree = "<group>"; };
+		CC9335D820312D5B003BB19D /* UICollectionView+XYTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		CC9335D920312D5B003BB19D /* UICollectionView+XYTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		CC9335DA20312D5B003BB19D /* UICollectionView+XYTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		CC9335DB20312D5B003BB19D /* UICollectionView+XYTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		CC9335DC20312D5B003BB19D /* UICollectionView+XYTemplateReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYTemplateReusableView.h"; sourceTree = "<group>"; };
+		CC9335DD20312D5B003BB19D /* UICollectionView+XYTemplateReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYTemplateReusableView.m"; sourceTree = "<group>"; };
+		CC9335E420312E44003BB19D /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		CC9335E520312E44003BB19D /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		CC9335E620312E44003BB19D /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		CC9335E720312E44003BB19D /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		CC9335EB20312E77003BB19D /* XYSelfTestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSelfTestTool.h; sourceTree = "<group>"; };
+		CC9335EC20312E77003BB19D /* XYSelfTestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSelfTestTool.m; sourceTree = "<group>"; };
+		CC9335EF203130D7003BB19D /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
+		CC9335F0203130D7003BB19D /* weibo_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_1.json; sourceTree = "<group>"; };
+		CC9335F1203130D7003BB19D /* weibo_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_2.json; sourceTree = "<group>"; };
+		CC9335F2203130D7003BB19D /* weibo_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_3.json; sourceTree = "<group>"; };
+		CC9335F3203130D7003BB19D /* weibo_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_4.json; sourceTree = "<group>"; };
+		CC9335F4203130D7003BB19D /* weibo_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_5.json; sourceTree = "<group>"; };
+		CC9335F5203130D7003BB19D /* weibo_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_6.json; sourceTree = "<group>"; };
+		CC9335F6203130D7003BB19D /* weibo_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_7.json; sourceTree = "<group>"; };
 		CCDBFF5A1D6ED56000B12DE8 /* XYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHeaderView.h; sourceTree = "<group>"; };
 		CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHeaderView.m; sourceTree = "<group>"; };
 		CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYHeaderView.xib; sourceTree = "<group>"; };
-		CCDBFF5F1D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYSectionSizeCache.h"; sourceTree = "<group>"; };
-		CCDBFF601D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYSectionSizeCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +97,9 @@
 		CC03DF3F1D11323F00E3660A = {
 			isa = PBXGroup;
 			children = (
-				CCDBFF411D6ED3CD00B12DE8 /* Classes */,
+				CC9335EA20312E77003BB19D /* XYTestTool */,
+				CC9335E320312E44003BB19D /* YYFPSLabel */,
+				CC9335D320312D5B003BB19D /* Classes */,
 				CC03DF4A1D11323F00E3660A /* Demo */,
 				CC03DF491D11323F00E3660A /* Products */,
 			);
@@ -89,6 +116,7 @@
 		CC03DF4A1D11323F00E3660A /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CC9335EE203130D7003BB19D /* Json */,
 				CC03DF4E1D11323F00E3660A /* AppDelegate.h */,
 				CC03DF4F1D11323F00E3660A /* AppDelegate.m */,
 				CC11674B1D1148E700F81E14 /* data.json */,
@@ -143,21 +171,59 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		CCDBFF411D6ED3CD00B12DE8 /* Classes */ = {
+		CC9335D320312D5B003BB19D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CCDBFF421D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.h */,
-				CCDBFF431D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m */,
-				CCDBFF441D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.h */,
-				CCDBFF451D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m */,
-				CCDBFF461D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.h */,
-				CCDBFF471D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m */,
-				CCDBFF5F1D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.h */,
-				CCDBFF601D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m */,
-				CCDBFF481D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.h */,
-				CCDBFF491D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m */,
+				CC9335D420312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.h */,
+				CC9335D520312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.m */,
+				CC9335D620312D5B003BB19D /* UICollectionView+XYSectionSizeCache.h */,
+				CC9335D720312D5B003BB19D /* UICollectionView+XYSectionSizeCache.m */,
+				CC9335D820312D5B003BB19D /* UICollectionView+XYTemplateLayoutCell.h */,
+				CC9335D920312D5B003BB19D /* UICollectionView+XYTemplateLayoutCell.m */,
+				CC9335DA20312D5B003BB19D /* UICollectionView+XYTemplateLayoutCellDebug.h */,
+				CC9335DB20312D5B003BB19D /* UICollectionView+XYTemplateLayoutCellDebug.m */,
+				CC9335DC20312D5B003BB19D /* UICollectionView+XYTemplateReusableView.h */,
+				CC9335DD20312D5B003BB19D /* UICollectionView+XYTemplateReusableView.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		CC9335E320312E44003BB19D /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CC9335E420312E44003BB19D /* YYFPSLabel.h */,
+				CC9335E520312E44003BB19D /* YYFPSLabel.m */,
+				CC9335E620312E44003BB19D /* YYWeakProxy.h */,
+				CC9335E720312E44003BB19D /* YYWeakProxy.m */,
+			);
+			name = YYFPSLabel;
+			path = Demo/YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		CC9335EA20312E77003BB19D /* XYTestTool */ = {
+			isa = PBXGroup;
+			children = (
+				CC9335EB20312E77003BB19D /* XYSelfTestTool.h */,
+				CC9335EC20312E77003BB19D /* XYSelfTestTool.m */,
+			);
+			name = XYTestTool;
+			path = Demo/XYTestTool;
+			sourceTree = "<group>";
+		};
+		CC9335EE203130D7003BB19D /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				CC9335EF203130D7003BB19D /* weibo_0.json */,
+				CC9335F0203130D7003BB19D /* weibo_1.json */,
+				CC9335F1203130D7003BB19D /* weibo_2.json */,
+				CC9335F2203130D7003BB19D /* weibo_3.json */,
+				CC9335F3203130D7003BB19D /* weibo_4.json */,
+				CC9335F4203130D7003BB19D /* weibo_5.json */,
+				CC9335F5203130D7003BB19D /* weibo_6.json */,
+				CC9335F6203130D7003BB19D /* weibo_7.json */,
+			);
+			path = Json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,11 +283,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9335FE203130D7003BB19D /* weibo_7.json in Resources */,
+				CC9335FA203130D7003BB19D /* weibo_3.json in Resources */,
+				CC9335FD203130D7003BB19D /* weibo_6.json in Resources */,
+				CC9335F7203130D7003BB19D /* weibo_0.json in Resources */,
 				CCDBFF5E1D6ED56000B12DE8 /* XYHeaderView.xib in Resources */,
+				CC9335F8203130D7003BB19D /* weibo_1.json in Resources */,
 				CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */,
 				CC1167471D113B2700F81E14 /* XYFeedCell.xib in Resources */,
 				CC1167361D11361300F81E14 /* ViewController.xib in Resources */,
 				CC03DF581D11323F00E3660A /* Assets.xcassets in Resources */,
+				CC9335F9203130D7003BB19D /* weibo_2.json in Resources */,
+				CC9335FB203130D7003BB19D /* weibo_4.json in Resources */,
+				CC9335FC203130D7003BB19D /* weibo_5.json in Resources */,
 				CC11674C1D1148E700F81E14 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,15 +307,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9335ED20312E78003BB19D /* XYSelfTestTool.m in Sources */,
 				CC1167461D113B2700F81E14 /* XYFeedCell.m in Sources */,
-				CCDBFF4C1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */,
-				CCDBFF4B1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateLayoutCell.m in Sources */,
-				CCDBFF4A1D6ED3CE00B12DE8 /* UICollectionView+XYIndexPathSizeCache.m in Sources */,
 				CCDBFF5D1D6ED56000B12DE8 /* XYHeaderView.m in Sources */,
-				CCDBFF611D6EDAF700B12DE8 /* UICollectionView+XYSectionSizeCache.m in Sources */,
+				CC9335DE20312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.m in Sources */,
 				CC1167351D11361300F81E14 /* ViewController.m in Sources */,
 				CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */,
-				CCDBFF4D1D6ED3CE00B12DE8 /* UICollectionView+XYTemplateReusableView.m in Sources */,
+				CC9335E120312D5B003BB19D /* UICollectionView+XYTemplateLayoutCellDebug.m in Sources */,
+				CC9335E820312E44003BB19D /* YYFPSLabel.m in Sources */,
+				CC9335E920312E44003BB19D /* YYWeakProxy.m in Sources */,
+				CC9335DF20312D5B003BB19D /* UICollectionView+XYSectionSizeCache.m in Sources */,
+				CC9335E020312D5B003BB19D /* UICollectionView+XYTemplateLayoutCell.m in Sources */,
+				CC9335E220312D5B003BB19D /* UICollectionView+XYTemplateReusableView.m in Sources */,
 				CC03DF4D1D11323F00E3660A /* main.m in Sources */,
 				CC11674A1D11415900F81E14 /* XYFeedModel.m in Sources */,
 			);
