@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "XYSelfTestTool.h"
 
 @interface AppDelegate ()
 
@@ -26,6 +27,9 @@
     UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:mainVC];
     
     self.window.rootViewController = navVC;
+    
+    [[XYSelfTestTool tool] showFPS];
+    
     return YES;
 }
 
