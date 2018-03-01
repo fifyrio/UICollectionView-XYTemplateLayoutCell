@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UICollectionView-XYTemplateLayoutCell"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Template auto layout cell for automatically UICollectionView cell height calculate, cache and precache"
 
   # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform = :ios, "6.0"
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source = { :git => "https://github.com/fifyrio/UICollectionView-XYTemplateLayoutCell.git", :tag => "1.0.0" }
+  s.source = { :git => "https://github.com/fifyrio/UICollectionView-XYTemplateLayoutCell.git", :tag => "1.0.1" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "Classes/*.{h,m}"
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
