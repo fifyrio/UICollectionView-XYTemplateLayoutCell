@@ -15,7 +15,6 @@
 		CC1167461D113B2700F81E14 /* XYFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167441D113B2700F81E14 /* XYFeedCell.m */; };
 		CC1167471D113B2700F81E14 /* XYFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1167451D113B2700F81E14 /* XYFeedCell.xib */; };
 		CC11674A1D11415900F81E14 /* XYFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167491D11415900F81E14 /* XYFeedModel.m */; };
-		CC11674C1D1148E700F81E14 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CC11674B1D1148E700F81E14 /* data.json */; };
 		CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC11674D1D114DF300F81E14 /* LaunchScreen.xib */; };
 		CC9335DE20312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335D520312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.m */; };
 		CC9335DF20312D5B003BB19D /* UICollectionView+XYSectionSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335D720312D5B003BB19D /* UICollectionView+XYSectionSizeCache.m */; };
@@ -25,14 +24,6 @@
 		CC9335E820312E44003BB19D /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335E520312E44003BB19D /* YYFPSLabel.m */; };
 		CC9335E920312E44003BB19D /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335E720312E44003BB19D /* YYWeakProxy.m */; };
 		CC9335ED20312E78003BB19D /* XYSelfTestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9335EC20312E77003BB19D /* XYSelfTestTool.m */; };
-		CC9335F7203130D7003BB19D /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335EF203130D7003BB19D /* weibo_0.json */; };
-		CC9335F8203130D7003BB19D /* weibo_1.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F0203130D7003BB19D /* weibo_1.json */; };
-		CC9335F9203130D7003BB19D /* weibo_2.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F1203130D7003BB19D /* weibo_2.json */; };
-		CC9335FA203130D7003BB19D /* weibo_3.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F2203130D7003BB19D /* weibo_3.json */; };
-		CC9335FB203130D7003BB19D /* weibo_4.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F3203130D7003BB19D /* weibo_4.json */; };
-		CC9335FC203130D7003BB19D /* weibo_5.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F4203130D7003BB19D /* weibo_5.json */; };
-		CC9335FD203130D7003BB19D /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F5203130D7003BB19D /* weibo_6.json */; };
-		CC9335FE203130D7003BB19D /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F6203130D7003BB19D /* weibo_7.json */; };
 		CCDBFF5D1D6ED56000B12DE8 /* XYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */; };
 		CCDBFF5E1D6ED56000B12DE8 /* XYHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */; };
 /* End PBXBuildFile section */
@@ -52,7 +43,6 @@
 		CC1167451D113B2700F81E14 /* XYFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYFeedCell.xib; sourceTree = "<group>"; };
 		CC1167481D11415900F81E14 /* XYFeedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYFeedModel.h; sourceTree = "<group>"; };
 		CC1167491D11415900F81E14 /* XYFeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFeedModel.m; sourceTree = "<group>"; };
-		CC11674B1D1148E700F81E14 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		CC11674D1D114DF300F81E14 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		CC9335D420312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XYIndexPathSizeCache.h"; sourceTree = "<group>"; };
 		CC9335D520312D5B003BB19D /* UICollectionView+XYIndexPathSizeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XYIndexPathSizeCache.m"; sourceTree = "<group>"; };
@@ -70,14 +60,6 @@
 		CC9335E720312E44003BB19D /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		CC9335EB20312E77003BB19D /* XYSelfTestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSelfTestTool.h; sourceTree = "<group>"; };
 		CC9335EC20312E77003BB19D /* XYSelfTestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSelfTestTool.m; sourceTree = "<group>"; };
-		CC9335EF203130D7003BB19D /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
-		CC9335F0203130D7003BB19D /* weibo_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_1.json; sourceTree = "<group>"; };
-		CC9335F1203130D7003BB19D /* weibo_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_2.json; sourceTree = "<group>"; };
-		CC9335F2203130D7003BB19D /* weibo_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_3.json; sourceTree = "<group>"; };
-		CC9335F3203130D7003BB19D /* weibo_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_4.json; sourceTree = "<group>"; };
-		CC9335F4203130D7003BB19D /* weibo_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_5.json; sourceTree = "<group>"; };
-		CC9335F5203130D7003BB19D /* weibo_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_6.json; sourceTree = "<group>"; };
-		CC9335F6203130D7003BB19D /* weibo_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_7.json; sourceTree = "<group>"; };
 		CCDBFF5A1D6ED56000B12DE8 /* XYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHeaderView.h; sourceTree = "<group>"; };
 		CCDBFF5B1D6ED56000B12DE8 /* XYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHeaderView.m; sourceTree = "<group>"; };
 		CCDBFF5C1D6ED56000B12DE8 /* XYHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYHeaderView.xib; sourceTree = "<group>"; };
@@ -116,10 +98,8 @@
 		CC03DF4A1D11323F00E3660A /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				CC9335EE203130D7003BB19D /* Json */,
 				CC03DF4E1D11323F00E3660A /* AppDelegate.h */,
 				CC03DF4F1D11323F00E3660A /* AppDelegate.m */,
-				CC11674B1D1148E700F81E14 /* data.json */,
 				CC1167421D113AEA00F81E14 /* Model */,
 				CC1167411D113AE700F81E14 /* View */,
 				CC1167401D113AE000F81E14 /* Controller */,
@@ -211,21 +191,6 @@
 			path = Demo/XYTestTool;
 			sourceTree = "<group>";
 		};
-		CC9335EE203130D7003BB19D /* Json */ = {
-			isa = PBXGroup;
-			children = (
-				CC9335EF203130D7003BB19D /* weibo_0.json */,
-				CC9335F0203130D7003BB19D /* weibo_1.json */,
-				CC9335F1203130D7003BB19D /* weibo_2.json */,
-				CC9335F2203130D7003BB19D /* weibo_3.json */,
-				CC9335F3203130D7003BB19D /* weibo_4.json */,
-				CC9335F4203130D7003BB19D /* weibo_5.json */,
-				CC9335F5203130D7003BB19D /* weibo_6.json */,
-				CC9335F6203130D7003BB19D /* weibo_7.json */,
-			);
-			path = Json;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -283,20 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9335FE203130D7003BB19D /* weibo_7.json in Resources */,
-				CC9335FA203130D7003BB19D /* weibo_3.json in Resources */,
-				CC9335FD203130D7003BB19D /* weibo_6.json in Resources */,
-				CC9335F7203130D7003BB19D /* weibo_0.json in Resources */,
 				CCDBFF5E1D6ED56000B12DE8 /* XYHeaderView.xib in Resources */,
-				CC9335F8203130D7003BB19D /* weibo_1.json in Resources */,
 				CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */,
 				CC1167471D113B2700F81E14 /* XYFeedCell.xib in Resources */,
 				CC1167361D11361300F81E14 /* ViewController.xib in Resources */,
 				CC03DF581D11323F00E3660A /* Assets.xcassets in Resources */,
-				CC9335F9203130D7003BB19D /* weibo_2.json in Resources */,
-				CC9335FB203130D7003BB19D /* weibo_4.json in Resources */,
-				CC9335FC203130D7003BB19D /* weibo_5.json in Resources */,
-				CC11674C1D1148E700F81E14 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
