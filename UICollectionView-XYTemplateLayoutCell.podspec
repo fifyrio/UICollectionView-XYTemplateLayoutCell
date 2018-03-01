@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.license = { :type => "MIT", :file => "LICENSE" }
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.author = { "Will" => "fifyrio@qq.com" }
+  s.author = { "fifyrio" => "fifyrio@qq.com" }
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform = :ios, "7.0"
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
